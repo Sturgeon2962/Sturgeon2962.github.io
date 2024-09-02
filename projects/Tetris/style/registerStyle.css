@@ -1,0 +1,28 @@
+#registrationBox {
+    width: fit-content;
+    margin: auto;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+.form {
+    background-color: #c7c7c7;
+    box-shadow: 5px 5px;
+}
+
+.lab {
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 80px;
+    text-align: right;
+}
+
+.plab {
+    margin-left: 5%;
+    text-align: left;
+}
+
+#button {
+    margin-left: 95px;
+}
