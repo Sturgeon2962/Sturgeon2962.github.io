@@ -3,31 +3,69 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Thomas Sturgeon's Portfolio</title>
+        <title>Thomas Sturgeon | Portfolio</title>
         <link rel="stylesheet" href="styles.css" />
+        <script src="src/loadTemplates.js" defer></script>
     </head>
     <body>
         <header>
-            <nav class="navabar">
-                <ul>
-                    <li class="navItem"><a href="index.html">Home</a></li>
-                    <li class="navItem"><a href="about.html">About Me</a></li>
-                    <li class="navItem"><a href="projects.html">Projects</a></li>
-                    <li class="navItem"><a href="contact.html">Contact</a></li>
+            <nav>
+                <ul class="navbar">
+                    <li class="navitem"><a href="#home">Home</a></li>
+                    <li class="navitem"><a href="#about">About</a></li>
+                    <li class="navitem"><a href="#skills">Skills</a></li>
+                    <li class="navitem"><a href="#projects">Projects</a></li>
+                    <li class="navitem"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <h1>Welcome to My Portfolio</h1>
-            <p>Hi, I'm Thomas Sturgeon, a recent university graduate hoping to find a job as a web developer.</p>
         </header>
-        <section id="projects">
-            <h2>Projects</h2>
-            <!-- List your projects here -->
-            <ul>
-                <li>Tetris</li>
-            </ul>
-        </section>
+
+        <main>
+            <section id="home">
+                <h1>Hey, I'm Thomas Sturgeon</h1>
+                <p>I'm a recent graduate of Exeter University with a BSc in Computer Science, looking to build a career in web development.</p>
+            </section>
+
+            <section id="about">
+                <h2>About Me</h2>
+                <p>
+                    I hold a Bachelor's degree from Exeter University, where I completed a project on calculating gender representation in academic fields using data from academic papers. You can read the full report
+                    <a href="ECM3401_Final_Report.pdf">here</a>. I am currently focused on launching my career as a full stack web developer.
+                </p>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>PHP</li>
+                </ul>
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <ul class="projects-list">
+                    <a href="projects/Tetris/src/index.php"
+                        ><li><strong>Tetris:</strong> A classic game implemented in JavaScript.</li></a
+                    >
+                    <li><strong>Food Sustainability Web App:</strong> A web application focused on promoting sustainable food choices.</li>
+                    <li><strong>Sevens Card Game:</strong> An interactive card game developed with Python.</li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <p>Feel free to <a href="mailto:your-email@example.com">reach out via email</a> or connect with me on <a href="#">LinkedIn</a>.</p>
+            </section>
+        </main>
+
         <footer>
-            <p>Contact: tomasturgeon@gmail.com | [Your LinkedIn]</p>
+            <p>&copy; 2024 Thomas Sturgeon | <a href="contact.html">Contact</a></p>
         </footer>
     </body>
 </html>
